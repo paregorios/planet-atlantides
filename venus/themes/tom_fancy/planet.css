@@ -1,0 +1,225 @@
+body {
+	padding: 0px;
+	margin: 0px;
+}
+
+div.header {
+	width: 100%;	
+	background-color: #BBBBBB;
+	color: white;
+	padding: 1em;
+	margin: 0px;
+}
+div.wrapper {
+	width: 95%;
+	padding: 0px;
+	margin: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+div.contentbar {
+	width: 78%;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	margin-right: 20px;
+	
+}
+
+div.content {
+	font-family: GentiumAlt, "Palatino Linotype", "Times New Roman", Times, serif;
+	font-size: 1em;
+}
+
+blockquote.planetoid h3, blockquote.planetoid h4 {
+	font-weight: bold;
+	font-style: normal;
+	margin: 0px;
+	font-size: 1em;
+}
+
+blockquote img {
+	max-width: 100px !important;
+	max-height: 100px !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	float: none !important;
+}
+
+
+h1.planetoid {
+	margin: 0px;
+	margin-bottom: 0.5em;
+	padding: 0px;
+
+	font-family: GentiumAlt, "Palatino Linotype", "Times New Roman", Times, serif;
+	font-weight: bold;
+	text-align: left;
+  font-size: 1.4em;
+}
+
+.admin {
+	text-align: left;
+	font-family: GentiumAlt, "Palatino Linotype", "Times New Roman", Times, serif;
+	margin: 0px;
+	padding: 0px;
+}
+
+.admin p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.admin p a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h2.planetoid {
+	font-family: GentiumAlt, "Palatino Linotype", "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 1.2em;
+	color: grey;
+  margin: 0px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 0px;
+	text-align: left;
+	border-bottom: 1px solid grey;
+}
+
+h3.planetoid {
+	font-family: GentiumAlt, "Palatino Linotype", "Times New Roman", Times, serif;
+	font-size: 1.2em;
+	font-weight: normal;
+	margin: 0px;
+	margin-bottom: 1em;
+	padding: 0px;
+}
+
+h3.planetoid a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+h4.planetoid {
+	font-family: GentiumAlt, "Palatino Linotype", "Times New Roman", Times, serif;
+	font-weight: normal;
+	font-size: 1em;
+	margin: 0px;
+	margin-left: 40px;
+	margin-bottom: 0.5em;
+	padding: 0px;
+}
+
+h4.planetoid a {
+	text-decoration: underline;
+}
+
+blockquote.planetoid {
+	border-left: 2px solid #EEEEEE;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 7px;
+	
+	margin-left: 40px;
+}
+
+img.face {
+	float: right;
+	margin-top: -3em;
+}
+
+.entry {
+	margin-bottom: 2em;
+}
+
+
+.entry .date {
+	font-family: "Bitstream Vera Sans", sans-serif;
+	color: grey;
+}
+
+.entry .date a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.sidebar {
+	
+	width: 18%;
+	float: right;
+
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	padding-right: 0px;
+
+	padding-top: 0px;
+
+	font-family: GentiumAlt, "Palatino Linotype", "Times New Roman", Times, serif;
+	
+}
+
+.sidebar h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+	border-bottom: 1px solid grey;
+	color: grey;
+
+	padding-left: 5px;
+	margin-left: 0px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.sidebar ul {
+	padding-left: 1em;
+	margin-left: 0px;
+	font-size: 0.8em;
+
+	list-style-type: none;
+}
+
+.sidebar ul li:hover {
+	color: grey;
+}
+
+.sidebar ul li a {
+        text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+        text-decoration: underline;
+}
+
+.sidebar ul li a img {
+        border: 0;
+}
+
+.sidebar p {
+	border-top: 1px solid grey;
+	margin-top: 30px;
+	padding-top: 10px;
+
+	padding-left: 5px;
+}
+
+.sidebar .message {
+    cursor: help;
+    border-bottom: 1px dashed red;
+}
+
+.sidebar a.message:hover {
+    cursor: help;
+	background-color: #ff0000;
+	color: #ffffff !important;
+	text-decoration: none !important;
+}
+
+a:hover {
+	text-decoration: underline !important;
+	color: inherit !important;
+}
