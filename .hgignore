@@ -1,0 +1,24 @@
+syntax: glob
+
+maia/*
+electra/*
+venus/*.py
+venus/AUTHORS
+venus/LICENCE
+venus/README
+venus/THANKS
+venus/TODO
+venus/docs
+venus/examples
+venus/filters
+venus/planet
+venus/tests
+venus/themes/asf
+venus/themes/classic_fancy
+venus/themes/common
+venus/themes/django
+venus/themes/genshi_fancy
+venus/themes/mobile
+venus/themes/musings
+*.tmplc
+
