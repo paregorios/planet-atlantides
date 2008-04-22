@@ -1,7 +1,13 @@
 syntax: glob
 
+concordia/*
+pleiades/*
 maia/*
 electra/*
+public_html/concordia/*
+public_html/pleiades/*
+public_html/maia/*
+public_html/electra/*
 venus/*.py
 venus/AUTHORS
 venus/LICENCE
@@ -20,5 +26,6 @@ venus/themes/django
 venus/themes/genshi_fancy
 venus/themes/mobile
 venus/themes/musings
+venus/themes/tom_fancy/index.html.tmplc
 *.tmplc
 
