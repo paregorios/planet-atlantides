@@ -4,10 +4,12 @@ concordia/*
 pleiades/*
 maia/*
 electra/*
+epidoc/*
 public_html/concordia/*
 public_html/pleiades/*
 public_html/maia/*
 public_html/electra/*
+public_html/epidoc/*
 venus/*.py
 venus/AUTHORS
 venus/LICENCE
