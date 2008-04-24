@@ -33,12 +33,12 @@ for pattern,replacement in [
 # process requirements
 if options.has_key('--require'):
   for regexp in options['--require'].split('\n'):
-     if regexp and not re.search(regexp,data): sys.exit(1)
+     if regexp and not re.compile(regexp,re.IGNORECASE).search(data): sys.exit(1)
 
 # process exclusions
 if options.has_key('--exclude'):
   for regexp in options['--exclude'].split('\n'):
-     if regexp and re.search(regexp,data): sys.exit(1)
+     if regexp and re.compile(regexp,re.IGNORECASE).search(data): sys.exit(1)
 
 # if we get this far, the feed is to be included
 print doc
