@@ -5,11 +5,13 @@ pleiades/*
 maia/*
 electra/*
 epidoc/*
+merope/*
 public_html/concordia/*
 public_html/pleiades/*
 public_html/maia/*
 public_html/electra/*
 public_html/epidoc/*
+public_html/merope/*
 venus/*.py
 venus/AUTHORS
 venus/LICENCE
