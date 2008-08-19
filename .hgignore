@@ -6,12 +6,14 @@ maia/*
 electra/*
 epidoc/*
 merope/*
+paregorian/*
 public_html/concordia/*
 public_html/pleiades/*
 public_html/maia/*
 public_html/electra/*
 public_html/epidoc/*
 public_html/merope/*
+public_html/paregorian/*
 venus/*.py
 venus/AUTHORS
 venus/LICENCE
