@@ -223,3 +223,9 @@ a:hover {
 	text-decoration: underline !important;
 	color: inherit !important;
 }
+
+.versions a {
+    text-decoration: underline !important;
+    color: inherit !important;
+}
+
