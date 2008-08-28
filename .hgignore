@@ -9,6 +9,7 @@ merope/*
 paregorian/*
 paregoriannex/*
 paregoribib/*
+blargh/*
 public_html/concordia/*
 public_html/pleiades/*
 public_html/maia/*
@@ -18,7 +19,7 @@ public_html/merope/*
 public_html/paregorian/*
 public_html/paregoriannex/*
 public_html/paregoribib/*
-venus/*.py
+public_html/blargh/*
 venus/AUTHORS
 venus/LICENCE
 venus/README
