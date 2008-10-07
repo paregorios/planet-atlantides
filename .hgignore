@@ -10,6 +10,7 @@ paregorian/*
 paregoriannex/*
 paregoribib/*
 blargh/*
+taygete/*
 public_html/concordia/*
 public_html/pleiades/*
 public_html/maia/*
@@ -20,6 +21,7 @@ public_html/paregorian/*
 public_html/paregoriannex/*
 public_html/paregoribib/*
 public_html/blargh/*
+public_html/taygete/*
 venus/AUTHORS
 venus/LICENCE
 venus/README
@@ -38,5 +40,6 @@ venus/themes/genshi_fancy
 venus/themes/mobile
 venus/themes/musings
 venus/themes/tom_fancy/index.html.tmplc
+venus/themes/tom_test
 *.tmplc
 
