@@ -70,6 +70,8 @@
 <div class="entrygroup" id="<TMPL_VAR id>"<TMPL_IF channel_language> lang="<TMPL_VAR channel_language>"</TMPL_IF>>
 <TMPL_IF title>
 <h4 class="planetoid"<TMPL_IF title_language> lang="<TMPL_VAR title_language>"</TMPL_IF>><a href="<TMPL_VAR link ESCAPE="HTML">"><TMPL_VAR title></a></h4>
+<TMPL_ELSE>
+<h4 class="planetoid">waugh</h4>
 </TMPL_IF>
 <div class="entry">
 <div class="content"<TMPL_IF content_language> lang="<TMPL_VAR content_language>"</TMPL_IF>>
@@ -98,7 +100,9 @@
 </div>
 
 <div class="sidebar">
-
+<h2>Last updated:</h2>
+<div style="font-size:13px; padding-left:13px;">
+<TMPL_VAR date><br/>All times are UTC.</div>
 <h2>Subscriptions</h2>
 <ul>
 <TMPL_LOOP Channels>
@@ -108,27 +112,25 @@
 </TMPL_LOOP>
 </ul>
 
-<p>
-<strong>Last updated:</strong><br>
-<TMPL_VAR date><br>
-<em>All times are UTC.</em><br>
-<br>
-Powered by:<br>
-<a href="http://www.planetplanet.org/"><img src="images/planet.png" width="80" height="15" alt="Planet" border="0"></a>
-</p>
 
-<p>
-<h2>Planetarium:</h2>
+
+<h2>Atlantides:</h2>
 <ul>
-<li><a href="http://www.planetapache.org/">Planet Apache</a></li>
-<li><a href="http://planet.debian.net/">Planet Debian</a></li>
-<li><a href="http://planet.freedesktop.org/">Planet freedesktop.org</a></li>
-<li><a href="http://planet.gnome.org/">Planet GNOME</a></li>
-<li><a href="http://planetsun.org/">Planet Sun</a></li>
-<li><a href="http://fedora.linux.duke.edu/fedorapeople/">Fedora People</a></li>
+	<li><a href="../electra/">Electra: Digital Antiquity</a></li>
+	<li><a href="../epidoc/">EpiDoc News</a></li>
+	<li><a href="../maia/">Maia: Blogs</a></li>
+	<li><a href="../merope/">Merope: Inscriptions</a></li>
+	<li><a href="../potamos/">Potamos: Data</a></li>
+</ul>
+<h2>Planetarium</h2>
+<ul>
+<li><a href="http://planet.code4lib.org/">Planet Code4Lib</li>
+<li><a href="http://www.planetgs.com/">Planet Geospatial</li>
 <li><a href="http://www.planetplanet.org/">more...</a></li>
 </ul>
-</p>
+<span style="font-size:9px"><em>powered by:<br/>
+<a href="http://www.planetplanet.org/"><img src="images/planet.png" width="80" height="15" alt="Planet" border="0"></a></em></span>
+
 </div>
 </div>
 <script type="text/javascript">
