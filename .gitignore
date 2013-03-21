@@ -1,4 +1,7 @@
 venus/*
+!venus/themes/
+venus/themes/*
+!venus/themes/tom_fancy/
 public_html/*
 alcyone
 electra
