@@ -1,0 +1,257 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	font-family: "Arial Unicode MS", "Arial", sans-serif;
+	width: 100%;
+	background-color: #2185C5;
+}
+
+div.header {
+	width: 100%;	
+	background-color: #FFF6E5;
+	color: black;
+	padding: 1em;
+	margin: 0px;
+}
+div.wrapper {
+	width: 100%;
+	padding: 0px;
+	margin: 0px;
+}
+
+div.contentbar {
+	width: 78%;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 1em;
+	padding-right: 20px;
+	padding-top: 1em;
+}
+
+div.content {
+	font-size: 80%;
+}
+
+pre {
+	font-family: "Arial Unicode MS", "Arial", sans-serif !important;
+	font-size: 100% !important;
+	width: 100% !important;
+}
+
+.channelgroup {
+	margin: 1em;
+padding: 1em;
+border: 1px solid gray;
+border-radius: 15px;
+box-shadow: 3px 3px 4px #000;
+clear: both;
+background-color: white;
+}
+
+.entrygroup {
+	clear: both;
+	border-left: 2px solid gray;
+	border-radius: 10px;
+	background-color: #EEEEEE;
+	padding: 0.5em;
+	padding-left: 1em;
+	margin: 5px 0px;
+}
+
+
+.entry {
+	margin-bottom: 0;
+}
+
+
+.entry .date {
+	color: grey;
+}
+
+.entry .date a {
+	text-decoration: none;
+	color: inherit;
+}
+
+blockquote.planetoid {
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+blockquote.planetoid h1, blockquote.planetoid h2, blockquote.planetoid h3, blockquote.planetoid h4, blockquote.planetoid p {
+	font-weight: normal !important;
+	font-style: normal !important;
+	font-size: 1em !important;
+	color: black !important;
+	font-family: "Arial Unicode MS", "Arial", sans-serif !important;
+	margin: 0px !important;
+}
+
+blockquote img {
+	max-width: 250px !important;
+	padding: 0px !important;
+	margin: 0px !important;
+}
+
+
+h1.planetoid {
+	margin: 0px;
+	margin-bottom: 0.5em;
+	padding: 0px;
+	text-shadow: #333 1px 1px 2px;
+	font-weight: bold;
+	text-align: left;
+  font-size: 200%;
+  color: #FF7F66 !important;
+}
+
+
+h2.planetoid {
+	font-weight: normal;
+	font-size: 120%;
+	color: white;
+  margin: 0px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 0px;
+	text-align: left;
+	border-bottom: 1px solid white;
+}
+
+h3.planetoid {
+	font-size: 120%;
+	font-weight: normal;
+	margin: 0px;
+	margin-bottom: 1em;
+	padding: 0px;
+}
+
+h3.planetoid a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+h4.planetoid {
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+h4.planetoid a {
+	text-decoration: underline;
+	color: black;
+}
+
+
+img.face {
+	float: right;
+	margin-top: -3em;
+}
+
+
+
+.sidebar {
+	
+	float: right;
+	padding: 1em;
+	padding-top: 0;
+margin: 1em;
+width: 15%;
+border-radius: 10px;
+	background-color: #7ECEFD;
+	height: 100%;
+	
+}
+
+.sidebar h2 {
+	font-size: 1.2em;
+	font-weight: normal;
+	border-bottom: 1px solid black;
+	color: black;
+
+	padding-left: 5px;
+	margin-left: 0px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.sidebar ul {
+	padding-left: 1em;
+	margin-left: 0px;
+	font-size: 0.8em;
+
+	list-style-type: none;
+}
+
+.sidebar ul li:hover {
+	color: grey;
+}
+
+.sidebar ul li a {
+        text-decoration: none;
+}
+
+.sidebar ul li a:hover {
+        text-decoration: underline;
+}
+
+.sidebar ul li a img {
+        border: 0;
+}
+
+.sidebar p {
+	border-top: 1px solid grey;
+	margin-top: 30px;
+	padding-top: 10px;
+
+	padding-left: 5px;
+}
+
+.sidebar .message {
+    cursor: help;
+    border-bottom: 1px dashed red;
+}
+
+.sidebar a.message:hover {
+    cursor: help;
+	background-color: #ff0000;
+	color: #ffffff !important;
+	text-decoration: none !important;
+}
+
+a:hover {
+	text-decoration: underline !important;
+	color: inherit !important;
+}
+
+.versions {
+		font-style: italic;
+		font-size: 80%;
+}
+.versions a {
+    text-decoration: underline !important;
+    color: inherit !important;
+
+}
+
+.admin {
+	text-align: left;
+	margin: 0px;
+	padding: 0px;
+}
+
+.admin p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.admin p a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
