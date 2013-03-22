@@ -3,11 +3,13 @@ venus/*
 venus/themes/*
 !venus/themes/tom_fancy/
 public_html/*
+!public_html/maia/
+public_html/maia/*.xml
 alcyone
 electra
 isaw-resources
 isaw-social
-maia
+./maia
 paregoribib
 pleiades
 taygete

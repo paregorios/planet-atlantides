@@ -1,0 +1,291 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-color: #DFDBD3;
+		font-family: Verdana, Arial, sans-serif;
+		color: #4c4c4c;
+
+}
+
+div.header {
+	margin: 0px;
+	margin-left: 40px;
+	margin-top: 40px;
+	width: 800px;	
+	background-color: white;
+	color: #4c4c4c;
+	padding: 1em;
+}
+div.wrapper {
+	padding: 0px;
+	margin: 0px;
+	padding-left: 40px;
+
+}
+
+div.contentbar {
+	width: 800px;
+	float: left;
+	margin: 0px;
+	padding: 1em;
+	background-color: white;
+}
+
+div.content {
+	font-size: 1em !important;
+	line-height: 1.4em !important;
+}
+
+div.content p, div.content span, div.content strong {
+	font-size: 1em !important;
+	line-height: 1.4em !important;
+	font-family: Verdana, Arial, sans-serif !important;
+	color: #4c4c4c !important;
+	font-weight: normal !important;
+}
+
+div.content div {
+	margin: 0px !important;
+	padding: 0px !important;
+}
+div.content p{
+	margin: 0px !important;
+	padding: 0px !important;
+	padding-top: 1em !important;
+}
+
+div.content hr {
+	display: none;
+}
+
+div.content h1, div.content h2, div.content h3, div.content h4, div.content h5, div.content h6 {
+	margin: 0px !important;
+	padding: 0px !important;
+	padding-top: 1em !important;
+	font-weight: bold !important;	
+	font-size: 1em !important;
+	line-height: 1.4em !important;
+	font-family: Verdana, Arial, sans-serif !important;
+	color: #4c4c4c !important;
+}
+
+blockquote.planetoid h3, blockquote.planetoid h4 {
+	font-weight: bold;
+	font-style: normal;
+	margin: 0px;
+	font-size: 1em;
+}
+
+blockquote img {
+	max-height: 200px !important;
+	width: auto !important;
+	padding: 0px !important;
+	margin: 0px !important;
+	margin-right: 20px !important;
+	margin-bottom: 1em;
+	float: left !important;
+	clear: both !important;
+}
+
+
+h1.planetoid {
+	margin: 0px;
+	margin-bottom: 0.5em;
+	padding: 0px;
+
+	font-family: Century Gothic, Verdana, Arial, sans-serif;
+	font-weight: normal;
+	text-transform: uppercase;
+	text-align: left;
+  font-size: 2em;
+}
+
+.admin {
+	text-align: left;
+	font-family: Arial, sans-serif;
+	margin: 0px;
+	padding: 0px;
+	color: #4c4c4c;
+	font-weight: normal;
+}
+
+.admin p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.admin p a {
+	text-decoration: none;
+	color: inherit;
+}
+
+h2.planetoid {
+	font-family: Verdana, sans-serif;
+	font-weight: normal;
+	font-size: 1.2em;
+	color: #99cc33;
+  margin: 0px;
+  margin-bottom: 1em;
+  margin-top: 1em;
+  padding: 0px;
+	text-align: left;
+	border-bottom: 1px solid #99cc33;
+}
+
+h3.planetoid {
+	font-size: 1.2em;
+	font-weight: normal;
+	margin: 0px;
+	margin-bottom: 1em;
+	padding: 0px;
+}
+
+h3.planetoid a {
+	text-decoration: none;
+	color: inherit;
+}
+
+
+h4.planetoid {
+	font-weight: normal;
+	font-size: 1em;
+	margin: 0px;
+	margin-left: 40px;
+	margin-bottom: 0.5em;
+	padding: 0px;
+}
+
+h4.planetoid a {
+	text-decoration: underline;
+	color: #83af2c;
+}
+
+blockquote.planetoid {
+	border-left: 2px solid #EEEEEE;
+	margin: 0px;
+	padding: 0px;
+	padding-left: 7px;
+	
+	margin-left: 40px;
+}
+
+.content a {
+	color: #83af2c !important;
+}
+
+img.face {
+	float: right;
+	margin-top: -3em;
+}
+
+.entry {
+	margin-bottom: 2em;
+}
+
+
+.entry .date {
+	color: grey;
+}
+
+.entry .date a {
+	text-decoration: none;
+	color: inherit;
+}
+
+.sidebar {
+	position: absolute;
+	left: 872px;
+	top: 200px;
+	width: 250px;
+	margin-left: 0px;
+	padding-left: 0px;
+	margin-right: 0px;
+	padding-right: 0px;
+
+	padding-top: 0px;
+
+	background-color: #b2ac9f;
+}
+
+.sidebar h2 {
+	font-size: 0.7em;
+	font-weight: normal;
+	color: white;
+	background-color: #83af2c;
+	padding: 4px;
+	padding-left: 20px;
+	margin-left: 0px;
+	margin-top: 1em;
+	margin-bottom: 1em;
+	width: 200px;
+	font-family: "Arial Narrow", sans-serif;
+	text-transform: uppercase;
+}
+
+.sidebar ul {
+	padding-left: 1em;
+	margin-left: 0px;
+	font-size: 0.8em;
+
+	list-style-type: none;
+}
+
+.sidebbar ul li {
+	color: white !important;
+}
+
+.sidebar ul li:hover {
+	color: #b7d24a;
+}
+
+.sidebar ul li a {
+        text-decoration: none;
+        color: #4c4c4c;
+}
+
+.sidebar ul li a:hover {
+        text-decoration: underline;
+}
+
+.sidebar ul li a img {
+        border: 0;
+}
+
+.sidebar p {
+	margin-top: 30px;
+	padding-top: 10px;
+	padding-left: 5px;
+}
+
+.sidebar .message {
+    cursor: help;
+    border-bottom: 1px dashed red;
+}
+
+.sidebar a.message:hover {
+    cursor: help;
+	background-color: #ff0000;
+	color: #ffffff !important;
+	text-decoration: none !important;
+}
+
+a:hover {
+	text-decoration: underline !important;
+	color: inherit !important;
+}
+
+.versions {
+	font-style: italic;
+}
+
+.versions a {
+    text-decoration: underline !important;
+    color: inherit !important;
+}
+.channelgroup {
+		clear: both;
+		padding-top: 1em;
+}
+.versions:after {
+	content: " The visual design of this page was inspired by Rene Hornig's 'Spring360' at the CSS Zen Garden.";
+};
