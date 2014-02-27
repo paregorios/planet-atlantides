@@ -351,6 +351,8 @@ def httpThread(thread_index, input_queue, output_queue, log):
 
 def spiderPlanet(only_if_new = False):
     """ Spider (fetch) an entire planet """
+
+    feedparser.USER_AGENT = "PlanetAtlantidesFeedBot/0.2 +http://planet.atlantides.org/"
     log = planet.logger
 
     global index
