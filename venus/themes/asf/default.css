@@ -61,7 +61,7 @@ body > h1 {
 	top: 150px;
 	right: 0px;
 	width: 210px;
-	background-color: white;
+	background-color: blue;
 
 	padding: 0px 0px 20px 0px;
 	margin: 0px 0px 20px 20px;
@@ -215,9 +215,9 @@ body > h1 {
 #body > h2 {
 	text-transform: none;
 	font-size: medium;
-	color: #333;
+	color: red;
 	font-weight: bold;
-	text-align: right;
+	text-align: left;
 	border-top: 1px solid #ccc;
 	background-color: #eee;
 	border-bottom: 1px solid #ccc;
@@ -272,7 +272,7 @@ img.icon {
 }
 
 .news .permalink {
-	text-align: right;
+	text-align: center;
 }
 
 /* ----------------------------- News Content ---------------------------- */
